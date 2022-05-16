@@ -66,9 +66,15 @@ export default function Index() {
             </p>
           </div>
 
-          <div className="homepage-header-col1t4" style={{ display: "flex" }}>
-            <img src={d1} alt="" />
-            <img src={d2} alt="" />
+          <div
+            className="homepage-header-col1t4 contactUs"
+            style={{ display: "flex" }}
+          >
+            {/* <img src={d1} alt="" />
+            <img src={d2} alt="" /> */}
+            <a href="mailto:gbolahan.salami@digicomme.com?subject=Hello from street credit">
+              <button>Contact Us</button>
+            </a>
           </div>
         </div>
 
@@ -76,7 +82,7 @@ export default function Index() {
           <img src={pasta} alt="" />
         </div>
       </div>
-      <div className="col2-home app-padding">
+      {/* <div className="col2-home app-padding">
         <div className="col2-home-col1">
           <h2>Simple Steps to Access Loans</h2>
           <p>
@@ -134,9 +140,9 @@ export default function Index() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="col4-home app-padding">
+      {/* <div className="col4-home app-padding">
         <div className="col4-home-col1">
           <img src={Phone} alt="" />
         </div>
@@ -151,9 +157,9 @@ export default function Index() {
           </p>
           <button>Get App Now</button>
         </div>
-      </div>
+      </div> */}
 
-      <div className="col5-home app-padding" style={{ paddingLeft: 0 }}>
+      {/* <div className="col5-home app-padding" style={{ paddingLeft: 0 }}>
         <div className="col5-home-col1">
           <img src={Standard} alt="" />
         </div>
@@ -188,8 +194,8 @@ export default function Index() {
             </div>
           </div>
         </div>
-      </div>
-
+      </div> */}
+      {/* 
       <div className="col6-home">
         <div className="col6-home-col1">
           <h2>Our Loan process is easy-peazy</h2>
@@ -204,9 +210,9 @@ export default function Index() {
         <div className="dgqu3ubdkl">
           <img src={Tablet} alt="" className="" />
         </div>
-      </div>
+      </div> */}
 
-      <div className="col7-home app-padding" style={{ paddingRight: 0 }}>
+      {/* <div className="col7-home app-padding" style={{ paddingRight: 0 }}>
         <div className="col7-home-col1">
           <h2>Invest and get monthly returns.</h2>
           <p style={{ textAlign: "center" }}>
@@ -220,9 +226,9 @@ export default function Index() {
         <div className="col7-home-col2">
           <img src={Standard2} alt="" />
         </div>
-      </div>
+      </div> */}
 
-      <div
+      {/* <div
         className="col3-home app-padding"
         // style={{ backgroundColor: "#070F15" }}
       >
@@ -233,9 +239,8 @@ export default function Index() {
             <br /> platform with first hand experiences
           </p>
         </div>
-      </div>
-      <div
-        // className="container"
+      </div> */}
+      {/* <div
         style={{ width: "100%", background: "#edf6ff", overflow: "hidden " }}
       >
         <Slider {...settings}>
@@ -365,7 +370,7 @@ export default function Index() {
             </div>
           </div>
         </Slider>
-      </div>
+      </div> */}
     </>
   );
 }

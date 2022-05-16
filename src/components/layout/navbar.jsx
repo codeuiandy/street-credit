@@ -15,7 +15,7 @@ export default function Navbar() {
           </Link>
         </div>
 
-        <ul className="right-links hideOnMobile">
+        {/* <ul className="right-links hideOnMobile">
           <li
             className={`${
               location.pathname == "/hmenu" ? "activeNvaLink" : ""
@@ -31,8 +31,8 @@ export default function Navbar() {
           <li className={`${location.pathname == "/h" ? "activeNvaLink" : ""}`}>
             <Link to="/">Investment</Link>
           </li>
-        </ul>
-        <p className="HideOnDesktop">
+        </ul> */}
+        {/* <p className="HideOnDesktop">
           <i
             style={{ fontSize: "25px", color: "#013d79" }}
             onClick={() => {
@@ -40,7 +40,7 @@ export default function Navbar() {
             }}
             className="fas fa-bars HideOnDesktop"
           ></i>
-        </p>
+        </p> */}
 
         <ul className="right-links hideOnMobile">
           <li
@@ -48,7 +48,7 @@ export default function Navbar() {
               location.pathname == "/hmenu" ? "activeNvaLink" : ""
             }`}
           >
-            <Link to="/">
+            <a href="mailto:gbolahan.salami@digicomme.com?subject=Hello from street credit">
               <button
                 style={{
                   background: "transparent",
@@ -61,11 +61,11 @@ export default function Navbar() {
                   fontSize: "13px",
                 }}
               >
-                Sign up
+                Contact Us
               </button>
-            </Link>
+            </a>
           </li>
-          <li
+          {/* <li
             className={`${
               location.pathname == "/hcontact" ? "activeNvaLink" : ""
             }`}
@@ -86,7 +86,7 @@ export default function Navbar() {
                 Apply Now
               </button>
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
 
