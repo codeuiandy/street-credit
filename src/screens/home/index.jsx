@@ -72,7 +72,7 @@ export default function Index() {
           >
             {/* <img src={d1} alt="" />
             <img src={d2} alt="" /> */}
-            <a href="mailto:gbolahan.salami@digicomme.com?subject=Hello from street credit">
+            <a href="mailto:sforesythe@gmail.com?subject=Hello from street credit">
               <button>Contact Us</button>
             </a>
           </div>
