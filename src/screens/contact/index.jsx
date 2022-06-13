@@ -71,7 +71,7 @@ const Index = () => {
             <p>
               General enquiries
               <br />
-              +234 (0) 70 6742 1332
+              +2348155718888
               <br />
               reservation@avantgarde.com
             </p>

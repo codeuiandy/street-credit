@@ -55,14 +55,15 @@ export default function Index() {
       <div style={{ paddingTop: "30px" }} className="home-page app-padding">
         <div className="homepage-header-col1">
           <div className="homepage-header-col1t1">
-            <h2>Quick & fast way of getting your next loan.</h2>
+            <h2>Welcome!! StreetCredit Appreciates Your Patronage!</h2>
           </div>
 
           <div className="homepage-header-col1t3">
             <p>
-              We provide quick access to your finance needs.
-              <br /> we support both businesses and individuals alike. <br />
-              apply today and enjoy our quick processing times.
+              We provide reliable, confidential, and quick access to your
+              finance needs. We support all types of requirements and put the
+              customer first. Apply and join several satisfied repeat customers
+              who value the difference!
             </p>
           </div>
 

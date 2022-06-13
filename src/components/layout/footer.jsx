@@ -41,7 +41,7 @@ const Footer = () => {
                   fill="white"
                 />
               </svg>
-              <span>+234 (0) 70 6742 1332</span>{" "}
+              <span>+2348155718888</span>{" "}
             </li>
 
             <li>
@@ -57,7 +57,18 @@ const Footer = () => {
                   fill="white"
                 />
               </svg>
-              <span>hello@street-credit.com</span>{" "}
+              <span>
+                {" "}
+                <a
+                  style={{
+                    color: "white",
+                    textDecoration: "none",
+                  }}
+                  href="mailto:sforesythe@gmail.com?subject=Hello from street credit"
+                >
+                  Email Us
+                </a>
+              </span>{" "}
             </li>
           </ul>
         </div>
