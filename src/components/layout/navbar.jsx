@@ -48,7 +48,7 @@ export default function Navbar() {
               location.pathname == "/hmenu" ? "activeNvaLink" : ""
             }`}
           >
-            <a href="mailto:sforesythe@gmail.com?subject=Hello from street credit">
+            <a href="mailto: Info@streetcreditng.com?subject=Hello from street credit">
               <button
                 style={{
                   background: "transparent",

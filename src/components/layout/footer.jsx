@@ -64,7 +64,7 @@ const Footer = () => {
                     color: "white",
                     textDecoration: "none",
                   }}
-                  href="mailto:sforesythe@gmail.com?subject=Hello from street credit"
+                  href="mailto: Info@streetcreditng.com?subject=Hello from street credit"
                 >
                   Email Us
                 </a>
